@@ -62,6 +62,12 @@ namespace Wpf3
                 list1.Items.RemoveAt(x);
             }
             ///https://metanit.com/sharp/wpf/5.6.php
+            ///
+
+
+
+
+
         }
     }
 }
