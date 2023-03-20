@@ -59,8 +59,9 @@ namespace Wpf3
             
             for (int x = list1.SelectedIndex - 1; x >= 0; x--)
             {
-                list1.Items.Remove(x);
+                list1.Items.RemoveAt(x);
             }
+            ///https://metanit.com/sharp/wpf/5.6.php
         }
     }
 }
