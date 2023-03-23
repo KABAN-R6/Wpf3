@@ -15,7 +15,7 @@
 
 
         <StackPanel Background="Gray" Margin="0,0,43,126" Grid.ColumnSpan="2" >
-            <ListBox x:Name="list1" Height="355" Margin="0,0,75,0" SelectionChanged="list1_SelectionChanged">
+            <ListBox x:Name="list1" Height="355" Margin="0,0,75,0" SelectionChanged="list1_SelectionChanged" DisplayMemberPath="Name" >
 
             </ListBox>
 
